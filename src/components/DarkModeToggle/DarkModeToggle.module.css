@@ -1,0 +1,19 @@
+.icon {
+    width: 18px;
+    height: 18px;
+}
+
+.sunrays {
+    color: var(--color-primary);
+}
+
+.sun {
+    color: var(--color-primary);
+}
+
+@media only screen and (min-width: 600px) {
+    .icon {
+        width: 24px;
+        height: 24px;
+    }
+}
