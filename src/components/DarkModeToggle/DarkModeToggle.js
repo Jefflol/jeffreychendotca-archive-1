@@ -48,7 +48,12 @@ const DarkModeToggle = () => {
     }
 
     return (
-        <button className={styles.dark_mode__button} aria-label={labelString} title={labelString}>
+        <button
+            className={styles.dark_mode__button}
+            aria-label={labelString}
+            title={labelString}
+            onClick={toggleDarkMode}
+        >
             <animated.svg
                 className={styles.icon}
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,8 +63,10 @@ const DarkModeToggle = () => {
                 strokeWidth="1"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                onClick={toggleDarkMode}
-                style={{ cursor: "pointer", ...svgContainerProps }}
+                // onClick={toggleDarkMode}
+                // style={{ cursor: "pointer", ...svgContainerProps }}
+                style={{ ...svgContainerProps }}
+                tabIndex="-1"
             >
                 <mask id="sunMask">
                     <rect x="0" y="0" width="100%" height="100%" fill="white" />

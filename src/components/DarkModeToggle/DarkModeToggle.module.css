@@ -1,6 +1,10 @@
 .dark_mode__button {
-    background-color: transparent;
+    width: 24px;
+    height: 24px;
     border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .icon {
@@ -14,6 +18,16 @@
 
 .sun {
     color: var(--color-primary);
+}
+
+.dark_mode__button:focus,
+.icon:focus {
+    outline: none;
+}
+
+.dark_mode__button:focus > .icon{
+    /* outline: 2px solid var(--color-secondary); */
+    /* outline: 2px solid rgba(247, 221, 4, 1); */
 }
 
 @media only screen and (min-width: 600px) {

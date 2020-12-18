@@ -11,6 +11,10 @@ export const COLORS = {
     light: 'rgba(0, 88, 133, 1)',
     dark: 'rgba(81, 180, 205, 1)',
   },
+  secondary: {
+    light: 'rgba(207, 181, 4, 1)',
+    dark: 'rgba(247, 221, 4, 1)',
+  },
   navbar: {
     light: 'rgba(245, 245, 245, 1)',
     dark: 'rgba(36, 36, 36, 1)'
