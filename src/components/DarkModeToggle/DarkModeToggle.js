@@ -78,6 +78,7 @@ const DarkModeToggle = () => {
                     cx="12"
                     cy="12"
                     fill="currentColor"
+                    stroke="currentColor"
                     mask="url(#sunMask)"
                 />
                 <animated.g 
