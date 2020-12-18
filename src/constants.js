@@ -23,6 +23,10 @@ export const COLORS = {
     light: 'rgba(0, 88, 133, 1)',
     dark: 'rgba(245, 245, 245, 1)',
   },
+  anchor: {
+    light: 'rgba(0, 0, 0, 0.1)',
+    dark: 'rgba(245, 245, 245, 0.1)',
+  }
 };
 
 export const COLOR_MODE_KEY = 'color-mode';
