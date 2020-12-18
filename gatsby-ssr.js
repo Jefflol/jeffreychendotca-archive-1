@@ -67,14 +67,7 @@ const FallbackStyles = () => {
     (acc, [name, colorByTheme]) => {
       return `${acc}\n--color-${name}: ${colorByTheme.light};`;
     },
-    `
-      --color-text: rgba(0, 0, 0, 1);
-      --color-background: rgba(245, 245, 245, 1);
-      --color-primary: rgba(0, 88, 133, 1);
-      --color-navbar: rgba(245, 245, 245, 1);
-      --color-brandName: rgba(29, 29, 29, 1);
-      --color-brandPosition: rgba(0, 88, 133, 1);
-    `
+    ''
   );
 
   const wrappedInSelector = `html { ${cssVariableString} }`;
