@@ -5,6 +5,7 @@ import PropTypes from "prop-types"
 import Navbar from "./Navbar"
 // import Header from "./Header"
 import "./Layout.css"
+import styles from "./Layout.module.css";
 
 const Layout = ({ children }) => {
   // const data = useStaticQuery(graphql`
@@ -18,16 +19,10 @@ const Layout = ({ children }) => {
   // `)
 
   return (
-    <>
+    <div className={styles.container}>
       <Navbar />
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <div className={styles.layout}>
         <main>{children}</main>
         {/* <footer style={{
           marginTop: `2rem`
@@ -37,7 +32,7 @@ const Layout = ({ children }) => {
           }}>© 2020-present Jeffrey Chen. All Rights Reserved.</small>
         </footer> */}
       </div>
-    </>
+    </div>
   )
 }
 
