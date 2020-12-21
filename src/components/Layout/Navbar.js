@@ -9,15 +9,15 @@ const Navbar = () => {
     const [scrollPos, setScrollPos] = useState(0);
     const [visible, setVisible] = useState(true);
 
-    const handleScroll = () => {
-        let newScrollPos = document.body.getBoundingClientRect().top;
-        let show = document.body.getBoundingClientRect().top > scrollPos;
-
-        setScrollPos(newScrollPos)
-        setVisible(show);
-    }
-
     useEffect(() => {
+        const handleScroll = () => {
+            let newScrollPos = document.body.getBoundingClientRect().top;
+            let show = document.body.getBoundingClientRect().top > scrollPos;
+    
+            setScrollPos(newScrollPos)
+            setVisible(show);
+        }
+
         window.addEventListener('scroll', handleScroll);
 
         return () => window.removeEventListener('scroll', handleScroll);
