@@ -31,10 +31,17 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `limelight`,
-          `source sans pro\:200,300,400,500,600,700,800,900,200i,300i,400i,500i,600i,700i,800i,900i` // you can also specify font weights and styles
+          `source sans pro\:200,300,400,500,600,700,800,900,200i,300i,400i,500i,600i,700i,800i,900i`,
         ],
-        display: 'swap'
+        display: 'swap',
+      }
+    },
+    {
+      resolve: `gatsby-plugin-scroll-reveal`,
+      options: {
+          threshold: 0.4,
+          once: true,
+          disable: false,
       }
     },
     `gatsby-plugin-offline`,
