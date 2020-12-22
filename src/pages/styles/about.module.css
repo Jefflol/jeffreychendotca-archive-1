@@ -1,0 +1,111 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    background-color: var(--color-background);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.page__title {
+    margin: 10px 0;
+    color: var(--color-primary);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 4.8rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.page__description {
+    margin: 10px 0;
+    padding: 0 20px;
+    color: var(--color-text);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4;
+    transition: color 0.3s ease-in-out;
+}
+
+.page__social_media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.link {
+    margin: 0 10px;
+    border-bottom: 1px solid var(--color-primary);
+    padding-bottom: 10px;
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.link:first-child {
+    margin-left: 0;
+}
+
+.link:last-child {
+    margin-right: 0;
+}
+
+.page__skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.skill__description {
+    flex-basis: 100%;
+    color: var(--color-primary);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1.8rem;
+    font-weight: 300;
+    transition: color 0.3s ease-in-out;
+}
+
+@media only screen and (min-width: 600px) {
+    .page {
+        align-items: flex-start;
+        height: calc(100vh - 100px);
+    }
+
+    .link {
+        font-size: 1rem;
+    }
+    
+    .page__description {
+        max-width: 600px;
+        padding: 0;
+        text-align: left;
+    }
+
+    .page__skill {
+        justify-content: flex-start;
+    }
+
+    .skill__description {
+        text-align: left;
+    }
+
+    .horizontal_group {
+        margin: 0 20px;
+    }
+
+    .page__skill {
+        margin-top: 150px;
+    }
+
+    .first_icon_fix {
+        margin-left: 0;
+    }
+}

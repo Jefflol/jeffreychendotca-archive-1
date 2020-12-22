@@ -44,6 +44,14 @@ module.exports = {
           disable: false,
       }
     },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /svg/
+        }
+      }
+    },
     `gatsby-plugin-offline`,
   ],
 }
