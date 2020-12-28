@@ -6,7 +6,7 @@ import Image from "../components/Image";
 import SEO from "../components/seo"
 
 import ShiftBy from "../utils/ShiftBy";
-import styles from "./styles/mood4food.module.css";
+import styles from "./styles/projectLayout.module.css";
 
 const ProjectMood4FoodPage = () => (
     <Layout>
