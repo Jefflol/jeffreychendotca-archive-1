@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 import ShiftBy from "../utils/ShiftBy";
 import styles from "./styles/projectLayout.module.css";
 
-const ProjectMood4FoodPage = () => (
+const ProjectWordsyPage = () => (
     <Layout>
         <SEO title="Wordsy" />
         <div className={styles.page}>
@@ -44,4 +44,4 @@ const ProjectMood4FoodPage = () => (
     </Layout>
 )
 
-export default ProjectMood4FoodPage;
+export default ProjectWordsyPage;
