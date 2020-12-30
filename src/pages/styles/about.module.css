@@ -9,42 +9,38 @@
     box-sizing: border-box;
 }
 
-.page__title {
+.about__title {
     margin: 10px 0;
-    color: var(--color-primary);
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-size: 4.8rem;
-    transition: color 0.3s ease-in-out;
 }
 
-.page__description {
+.about__description {
     margin: 10px 0;
     padding: 0 20px;
-    color: var(--color-text);
     text-align: center;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.4;
-    transition: color 0.3s ease-in-out;
 }
 
-.page__social_media {
+.about__social {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 0;
 }
 
+.about__skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.skill__description {
+    flex-basis: 100%;
+    text-align: center;
+}
+
 .link {
     margin: 0 10px;
-    border-bottom: 1px solid var(--color-primary);
-    padding-bottom: 10px;
-    color: var(--color-primary);
-    font-size: 1.4rem;
-    font-weight: 300;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
 }
 
 .link:first-child {
@@ -55,56 +51,24 @@
     margin-right: 0;
 }
 
-.page__skill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 20px 0;
-}
-
-.skill__description {
-    flex-basis: 100%;
-    color: var(--color-primary);
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-size: 1.8rem;
-    font-weight: 300;
-    transition: color 0.3s ease-in-out;
-}
-
 @media only screen and (min-width: 600px) {
     .page {
         align-items: flex-start;
-        /* height: calc(100vh - 100px); */
-        /* height: calc(100vh - 50px); */
-    }
-
-    .link {
-        font-size: 1rem;
     }
     
-    .page__description {
+    .about__description {
         max-width: 600px;
         padding: 0;
         text-align: left;
     }
 
-    .page__skill {
+    .about__skill {
         justify-content: flex-start;
+        margin-top: 150px;
     }
 
     .skill__description {
         text-align: left;
-    }
-
-    .horizontal_group {
-        margin: 0 20px;
-    }
-
-    .page__skill {
-        margin-top: 150px;
     }
 
     .first_icon_fix {

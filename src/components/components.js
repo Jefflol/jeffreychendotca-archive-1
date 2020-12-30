@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './components.module.css';
+import { Link } from "gatsby";
 
-import { Link } from 'gatsby';
+import styles from './components.module.css';
 
 export const Anchor = ({ className, to, children }) => {
     return (

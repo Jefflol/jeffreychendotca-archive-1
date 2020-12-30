@@ -1,8 +1,10 @@
 import React from "react";
-import { Link } from "gatsby";
-
-import SEO from "../components/seo";
 import Layout from "../components/Layout/Layout";
+import SEO from "../components/seo";
+import ShiftBy from "../utils/ShiftBy";
+
+import { Anchor } from "../components/components";
+import SkillIcon from "../components/SkillIcon/SkillIcon";
 
 import HTMLIcon from "../images/svg/html5-plain.svg";
 import CSSIcon from "../images/svg/css3-plain.svg";
@@ -14,24 +16,22 @@ import NodeJSIcon from "../images/svg/nodejs-plain.svg";
 import JavaIcon from "../images/svg/java-plain.svg";
 import GithubIcon from "../images/svg/github-original.svg";
 
-import SkillIcon from "../components/SkillIcon/SkillIcon";
 import styles from "./styles/about.module.css";
-import ShiftBy from "../utils/ShiftBy";
 
 const AboutPage = () => (
     <Layout>
         <SEO title="About" />
         <div className={styles.page}>
             <ShiftBy x={5}>
-                <h1 className={styles.page__title}>About Me</h1>
+                <h1 className={styles.about__title}>About Me</h1>
             </ShiftBy>
-            <p className={styles.page__description}>I enjoy both front end and back end development but lately I've been working with front end more. Right now, I'm learning React and this website is built with it!</p>
-            <div className={styles.page__social_media}>
-                <Link className={styles.link} to="/">Resume</Link>
-                <Link className={styles.link} to="/">LinkedIn</Link>
-                <Link className={styles.link} to="/">Github</Link>
+            <p className={styles.about__description}>I enjoy both front end and back end development but lately I've been working with front end more. Right now, I'm learning React and building my portfolio with it!</p>
+            <div className={styles.about__social}>
+                <Anchor className={styles.link} to="/">Resume</Anchor>
+                <Anchor className={styles.link} to="https://www.linkedin.com/in/jeffreychen246">LinkedIn</Anchor>
+                <Anchor className={styles.link} to="https://github.com/Jefflol">Github</Anchor>
             </div>
-            <div className={styles.page__skill}>
+            <div className={styles.about__skill}>
                 <h3 className={styles.skill__description}>Here's what I work with</h3>
                 <SkillIcon className={styles.first_icon_fix} title="HTML" ><HTMLIcon /></SkillIcon>
                 <SkillIcon title="CSS"><CSSIcon /></SkillIcon>
