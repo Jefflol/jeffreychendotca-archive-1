@@ -30,9 +30,9 @@ const Navbar = () => {
                     <Image src="logo_light.png" alt="JC" />
                 </Link>
                 <div className={styles.navbar__links}>
-                    <Link className={styles.navbar__link} to="/">Projects</Link>
+                    <Link className={styles.navbar__link} to="/main">Projects</Link>
                     <Link className={styles.navbar__link} to="/">Blogs</Link>
-                    <Link className={styles.navbar__link} to="/">About</Link>
+                    <Link className={styles.navbar__link} to="/about">About</Link>
                 </div>
                 <div className={styles.navbar__dark_mode}>
                     <DarkModeToggle />
