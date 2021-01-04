@@ -31,7 +31,6 @@ const Navbar = () => {
                 </Link>
                 <div className={styles.navbar__links}>
                     <Link className={styles.navbar__link} to="/main">Projects</Link>
-                    <Link className={styles.navbar__link} to="/">Blogs</Link>
                     <Link className={styles.navbar__link} to="/about">About</Link>
                 </div>
                 <div className={styles.navbar__dark_mode}>
