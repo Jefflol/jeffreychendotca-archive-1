@@ -63,8 +63,6 @@ const DarkModeToggle = () => {
                 strokeWidth="1"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                // onClick={toggleDarkMode}
-                // style={{ cursor: "pointer", ...svgContainerProps }}
                 style={{ ...svgContainerProps }}
                 tabIndex="-1"
             >

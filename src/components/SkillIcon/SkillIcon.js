@@ -1,4 +1,5 @@
 import React from "react";
+
 import styles from "./SkillIcon.module.css";
 
 const SkillIcon = ({ children, className, title }) => (

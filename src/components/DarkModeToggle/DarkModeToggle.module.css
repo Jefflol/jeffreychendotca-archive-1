@@ -25,11 +25,6 @@
     outline: none;
 }
 
-.dark_mode__button:focus > .icon{
-    /* outline: 2px solid var(--color-secondary); */
-    /* outline: 2px solid rgba(247, 221, 4, 1); */
-}
-
 @media only screen and (min-width: 600px) {
     .icon {
         width: 24px;
