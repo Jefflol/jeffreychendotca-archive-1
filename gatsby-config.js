@@ -31,7 +31,7 @@ module.exports = {
             resolve: `gatsby-plugin-google-fonts`,
             options: {
                 fonts: [
-                `source sans pro\:200,300,400,500,600,700,800,900,200i,300i,400i,500i,600i,700i,800i,900i`,
+                    `source sans pro\:200,300,400,500,600,700,800,900,200i,300i,400i,500i,600i,700i,800i,900i`,
                 ],
                 display: 'swap',
             }
@@ -48,7 +48,7 @@ module.exports = {
             resolve: 'gatsby-plugin-react-svg',
             options: {
                 rule: {
-                include: /svg/
+                    include: /svg/
                 }
             }
         },
