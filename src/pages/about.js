@@ -30,9 +30,9 @@ const AboutPage = () => (
             <p className={styles.about__description}>I'm a student seeking for an 8-month co-op position starting May 2021.</p>
 
             <div className={styles.about__social}>
-                <Anchor className={styles.link} to="/">Resume</Anchor>
-                <Anchor className={styles.link} to="https://www.linkedin.com/in/jeffreychen246">LinkedIn</Anchor>
-                <Anchor className={styles.link} to="https://github.com/Jefflol">Github</Anchor>
+                <Anchor className={styles.link} href="https://drive.google.com/file/d/1nEBWVpVY5HB3Y0MtqtdD7J-poSmDr-VW/view?usp=sharing">Resume</Anchor>
+                <Anchor className={styles.link} href="https://www.linkedin.com/in/jeffreychen246">LinkedIn</Anchor>
+                <Anchor className={styles.link} href="https://github.com/Jefflol">Github</Anchor>
             </div>
             <div className={styles.about__skill}>
                 <h3 className={styles.skill__description}>Here's what I work with</h3>
