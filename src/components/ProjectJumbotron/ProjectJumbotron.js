@@ -19,8 +19,8 @@ export const ProjectLinks = ({ projectURL, projectsURL, demoURL, githubURL }) =>
         <div className={styles.projects__links}>
             { projectURL && <Anchor className={styles.link} to={projectURL}>View Project</Anchor> }
             { projectsURL && <Anchor className={styles.link} to={projectsURL}>View Projects</Anchor> }
-            { demoURL && <Anchor className={styles.link} to={demoURL}>Try Demo</Anchor> }
-            { githubURL && <Anchor className={styles.link} to={githubURL}>View Github</Anchor> }
+            { demoURL && <a className={styles.link} href={demoURL}>Try Demo</a> }
+            { githubURL && <a className={styles.link} href={githubURL}>View Github</a> }
         </div>
     );
         
