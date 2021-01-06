@@ -65,6 +65,7 @@ h5 {
 
 ul {
     margin: 10px 0;
+    padding-left: 20px;
     color: var(--color-text);
     font-size: 1rem;
     font-weight: 300;
@@ -75,6 +76,10 @@ ul {
 @media only screen and (min-width: 600px) {
     html {
         font-size: 100%;
+    }
+
+    ul {
+        padding-left: 40px;
     }
 }
 
