@@ -34,7 +34,7 @@ const MainPage = () => (
             </ProjectJumbotron>
             <ProjectJumbotron title="Archive" src="archive.png" alt="Archive" x={7}>
                 <ProjectDescription>
-                    <p>A collection of mini-projects.</p>
+                    <p>A collection of archived projects.</p>
                 </ProjectDescription>
                 <ProjectLinks projectsURL="/archive" />
             </ProjectJumbotron>
