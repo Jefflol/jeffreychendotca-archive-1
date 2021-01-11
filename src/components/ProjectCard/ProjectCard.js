@@ -3,7 +3,7 @@ import Image from "../Image";
 
 import styles from "./ProjectCard.module.css";
 
-const ProjectCard = ({ title, src, alt, githubURL, children }) => {
+const ProjectCard = ({ title, src, alt, projectURL, children }) => {
     const goToLink = url => {
         window.location=`${url}`;
     }
@@ -15,7 +15,7 @@ const ProjectCard = ({ title, src, alt, githubURL, children }) => {
     }
 
     return (
-        <div className={styles.card} role={"button"} tabIndex={0} onClick={() => goToLink(githubURL)} onKeyDown={(e) => handleKeyDown(e, githubURL)}>
+        <div className={styles.card} role={"button"} tabIndex={0} onClick={projectURL ? () => goToLink(projectURL) : null} onKeyDown={projectURL ? (e) => handleKeyDown(e, projectURL) : null}>
             <div className={styles.card__detail}>
                 <h3 className={styles.card__title}>{title}</h3>
                 {children}

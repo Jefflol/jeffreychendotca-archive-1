@@ -18,22 +18,27 @@ const ProjectArchivePage = () => (
                 </ProjectDescription>
             </ProjectJumbotron>
             <div className={styles.archive__detail}>
-                <ProjectCard title="Palette Picker" src="palette_picker.png" alt="Palette Picker" githubURL="https://github.com/Jefflol/palette-picker">
+                <ProjectCard title="Discover Art" src="d_art.png" alt="Discover Art" projectURL="https://devpost.com/software/discover-art">
+                    <p>Built with <Highlight>React</Highlight>, <Highlight>Elixir</Highlight>, <Highlight>Phoenix</Highlight></p>
+                    <p>A web application to discover local artists.</p>
+                    <p><Highlight>See Project</Highlight></p>
+                </ProjectCard>
+                <ProjectCard title="Palette Picker" src="palette_picker.png" alt="Palette Picker" projectURL="https://github.com/Jefflol/palette-picker">
                     <p>Built with <Highlight>NodeJS</Highlight>, <Highlight>HTML</Highlight>, <Highlight>CSS</Highlight></p>
                     <p>A website showcasing different palettes.</p>
                     <p><Highlight>See Github</Highlight></p>
                 </ProjectCard>
-                <ProjectCard title="Instant Recipe" src="instant_recipe.png" alt="Instant Recipe" githubURL="https://github.com/Jefflol/instant-recipe">
+                <ProjectCard title="Instant Recipe" src="instant_recipe.png" alt="Instant Recipe" projectURL="https://github.com/Jefflol/instant-recipe">
                     <p>Built with <Highlight>React</Highlight> and <Highlight>MongoDB</Highlight></p>
                     <p>A web application with a database of recipes.</p>
                     <p><Highlight>See Github</Highlight></p>
                 </ProjectCard>
-                <ProjectCard title="Game of Life" src="gol.png" alt="Game of Life" githubURL="https://github.com/Jefflol/game-of-life">
+                <ProjectCard title="Game of Life" src="gol.png" alt="Game of Life" projectURL="https://github.com/Jefflol/game-of-life">
                     <p>Built with <Highlight>JavaScript</Highlight>, <Highlight>HTML</Highlight>, <Highlight>CSS</Highlight></p>
                     <p>A website demonstrating the game of life.</p>
                     <p><Highlight>See Github</Highlight></p>
                 </ProjectCard>
-                <ProjectCard title="Maze Generator" src="maze_generator.png" alt="Maze Generator" githubURL="https://github.com/Jefflol/maze-generator">
+                <ProjectCard title="Maze Generator" src="maze_generator.png" alt="Maze Generator" projectURL="https://github.com/Jefflol/maze-generator">
                     <p>Built with <Highlight>JavaScript</Highlight>, <Highlight>HTML</Highlight>, <Highlight>CSS</Highlight></p>
                     <p>A website demonstrating a maze generation.</p>
                     <p><Highlight>See Github</Highlight></p>
