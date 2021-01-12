@@ -23,6 +23,11 @@ const ProjectArchivePage = () => (
                     <p>A web application to discover local artists.</p>
                     <p><Highlight>See Project</Highlight></p>
                 </ProjectCard>
+                <ProjectCard title="Shortify" src="shortify.png" alt="Shortify" projectURL="https://github.com/Jefflol/shortify">
+                    <p>Built with <Highlight>NodeJS</Highlight>, <Highlight>MongoDB</Highlight>, <Highlight>HTML</Highlight>, <Highlight>CSS</Highlight></p>
+                    <p>A website to shorten a long url.</p>
+                    <p><Highlight>See Github</Highlight></p>
+                </ProjectCard>
                 <ProjectCard title="Palette Picker" src="palette_picker.png" alt="Palette Picker" projectURL="https://github.com/Jefflol/palette-picker">
                     <p>Built with <Highlight>NodeJS</Highlight>, <Highlight>HTML</Highlight>, <Highlight>CSS</Highlight></p>
                     <p>A website showcasing different palettes.</p>
