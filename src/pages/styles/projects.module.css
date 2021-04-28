@@ -34,26 +34,22 @@
     opacity: 0;
 }
 
+.scroll_down {
+    position: absolute;
+    bottom: 10px;
+    animation: fade-in 1s 3s forwards, blink 2.5s 3s infinite alternate;
+    opacity: 0;
+}
+
 .brand__connect {
     position: absolute;
     bottom: 10%;
-    color: var(--color-text);
     font-size: 1rem;
     font-weight: 300;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    animation: fade-in 1s 3s forwards;
-    opacity: 0;
-}
-
-.navbar__dark_mode {
-    animation: fade-in 1s 4s forwards;
-    opacity: 0;
 }
 
 @media only screen and (min-width: 600px) {
-    .brand__description,
-    .brand__connect {
+    .brand__description {
         font-size: 0.9rem;
     }
 }

@@ -27,7 +27,6 @@ const AboutPage = () => (
             </ShiftBy>
             <p className={styles.about__description}>Hi there! I'm Jeffrey. I have a previous degree in Engineering but a strong passion for front-end development.</p>
             <p className={styles.about__description}>I consider myself a life-long student who is always ready to learn and is motivated by designing and developing designs into products.</p>
-            <p className={styles.about__description}>I'm available for an 8-month co-op position starting May 2021.</p>
             <div className={styles.about__social}>
                 <Anchor className={styles.link} href="https://drive.google.com/file/d/1nEBWVpVY5HB3Y0MtqtdD7J-poSmDr-VW/view?usp=sharing">Resume</Anchor>
                 <Anchor className={styles.link} href="https://www.linkedin.com/in/jeffreychen246">LinkedIn</Anchor>
